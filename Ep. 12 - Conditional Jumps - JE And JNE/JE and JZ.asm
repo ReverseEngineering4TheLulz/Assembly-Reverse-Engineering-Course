@@ -49,7 +49,6 @@ section .text
 	call printf
 	
 .finished:
-	
 	xor rax, rax
 	add rsp, 40
 	ret
